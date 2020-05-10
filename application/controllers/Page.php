@@ -26,7 +26,7 @@ class Page extends CI_Controller
     }
 
 
-    function ViewDOC(){
+    function index(){
 
 
 
