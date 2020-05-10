@@ -1,0 +1,62 @@
+/* gallery */
+#gallery {
+	list-style-position:inside;
+	padding: 15px 0 15px 50px;
+	border-radius: 0px;
+	background: #4169E1;/*warna asli DBDBDB*/
+	list-style: none;
+	width: 100%;/*lebar background utama*/
+	float: left;
+}
+
+#gallery .lis-gallery {
+	float: left; 
+	padding: 5px; 
+	border: dotted 1px #FFDEAD; /*warna asli 85A737*/
+	margin: 5px; 
+	border-radius: 10px;
+	width: 199px; /*lebar garis tepi folder*/q
+        height:199px;
+}
+
+
+#gallery .lis-gallery h3{
+	font-weight: bold;
+	font-size: 13px;
+	margin: -4px -4px 0 -4px;
+	text-align: center;
+	padding: 4px;
+	border-radius: 10px;
+	background: #B2C290;
+}
+#gallery .lis-gallery img{
+	margin: 13px;
+	width: 160px;
+	height: 150px;
+	border: solid 5px #eee;
+}
+#gallery .lis-gallery .more{
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin: 15px 15px auto;
+}
+#gallery .lis-gallery .isi{
+	height: 220px;
+	width: 90px;
+	background-position:center; 
+	background-size:150px 130px;
+	background-repeat:no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin:0px 0px 0px 1px;
+}
+
+#gallery .lis-gallery .isi img{
+	margin: 5px 5px 10px 10px;
+	width: 180px;
+	height: 180px;
+	border: none;
+	box-shadow:3px 3px 3px 1px #ADC2B3;	
+}	

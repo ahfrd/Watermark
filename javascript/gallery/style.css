@@ -1,0 +1,73 @@
+/*________________TOOLTIP_____________*/
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:10px;
+	color:#333;
+	display:none;
+	border-radius: 5px;
+}
+/*___________END TOOLTIP_____________*/
+
+/* produk */
+#produk {
+	list-style-position:inside;
+	padding: 15px 0 15px 7px;
+	border-radius: 10px;
+	background: #4169E1;/*warna asli DBDBDB*/
+	list-style: none;
+	width: 953px;/*lebar background utama*/
+	float: left;
+}
+
+#produk .lis-produk {
+	float: left; 
+	padding: 5px; 
+	border: dotted 1px #FFDEAD; /*warna asli 85A737*/
+	margin: 5px; 
+	border-radius: 10px;
+	width: 280px; /*lebar garis tepi folder*/
+}
+
+
+#produk .lis-produk h3{
+	font-weight: bold;
+	font-size: 13px;
+	margin: -4px -4px 0 -4px;
+	text-align: center;
+	padding: 4px;
+	border-radius: 10px;
+	background: #B2C290;
+}
+#produk .lis-produk img{
+	margin: 13px;
+	width: 230px;
+	height: 250px;
+	border: solid 5px #eee;
+}
+#produk .lis-produk .more{
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin: 15px 15px auto;
+}
+#produk .lis-produk .isi{
+	height: 230px;
+	width: 140px;
+	background-position:center; 
+	background-size:150px 130px;
+	background-repeat:no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin: 45px 45px auto;
+}
+
+#produk .lis-produk .isi img{
+	margin: 5px 5px 10px 10px;
+	width: 210px;
+	height: 190px;
+	border: none;
+	box-shadow:3px 3px 3px 1px #ADC2B3;	
+}

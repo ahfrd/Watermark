@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+a.RedButton
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	background: #ff0202;
+	border:1px solid #633100;
+	padding-top: 4px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+    box-shadow: 1px 1px 2px #828282;
+    border-radius: 6px;		
+ }
+ 
+ a.RedButton:hover
+ {
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #FF8A8A;
+ }
+
+a.Button
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height:43;
+	color: #000000;
+	text-align: center;
+	background-image:url(../images/bg-button.gif);
+	border:1px solid #633100;
+	padding-top: 4px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+    box-shadow: 1px 1px 2px #828282;
+    border-radius: 6px;	
+	text-shadow: 1px 1px 1px #ffffff; 				
+ }
+ 
+ a.Button:hover
+ {
+	color: #66CCCC;
+ }
+ a.Button2
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height:43;
+	color: #000000;
+	text-align: center;
+	background-image:url(../images/bg-button.gif);
+	border:1px solid #633100;
+	padding-top: 4px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+    box-shadow: 1px 1px 2px #828282;
+    border-radius: 6px;	
+	text-shadow: 1px 1px 1px #ffffff; 				
+ }
+ 
+ a.Button2:hover
+ {
+	color: #000000;
+	background-image:url(../images/bg-button2.gif);
+ }
+ a.Button3
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height:46;
+	color: #000000;
+	text-align: center;
+	background-image:url(../images/icon-next.png);
+	border:1px solid #633100;
+	padding-top: 4px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	box-shadow: 1px 1px 2px #828282;
+	border-radius: 6px;
+	text-shadow: 1px 1px 1px #ffffff;
+	float: left;
+	display: block;
+	background-image: url(../images/icon-next.png);
+	background-position: left 45%;
+	background-repeat: no-repeat;
+	clip: rect(auto,auto,auto,10px);
+ }
+ 
+ a.Button3:hover
+ {
+	color: #990000;
+
+ }
+  a.Button4
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height:46;
+	color: #990000;
+	text-align: center;
+	background-image:url(../images/icon-next2.png);
+	border:1px solid #633100;
+	padding-top: 4px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	box-shadow: 1px 1px 2px #828282;
+	border-radius: 6px;
+	text-shadow: 1px 1px 1px #ffffff;
+	float: left;
+	display: block;
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+	clip: rect(auto,15px,auto,auto);
+ }
+ 
+ a.Button4:hover
+ {
+	color: #333333;
+	background-color: #EBEBEB;
+ }
